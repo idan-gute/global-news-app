@@ -1,6 +1,6 @@
 import { createGlobalStyle } from 'styled-components';
 
-const GlobalStyles = createGlobalStyle`
+export const GlobalStyles = createGlobalStyle`
 
 html {
     box-sizing: border-box;
@@ -36,7 +36,7 @@ html {
 body{
   margin: 0;
   height: 100dvh;
-  font-family: 'Overpass', sans-serif,'Roboto', 'Segoe UI', 'Oxygen',
+  font-family: 'Roboto', 'Segoe UI', 'Oxygen',
       'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue';
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;;
