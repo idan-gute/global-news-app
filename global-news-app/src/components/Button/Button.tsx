@@ -1,10 +1,12 @@
 import { ButtonProps } from "@mui/material";
-import { StyledButton } from "./button.styled";
+import { StyledButton } from "./styles";
 import ArrowRight from "assets/icons/ArrowButton";
+import { buttonVariants } from "assets/styles/types";
+
 
 export interface IButton extends ButtonProps {
   text: string;
-  buttontype: "primary" | "secondary" | "text";
+  buttontype: buttonVariants.PRIMARY | buttonVariants.SECONDARY | buttonVariants.TEXT;
   icon?: boolean;
 }
 

@@ -2,6 +2,19 @@ import { createGlobalStyle } from 'styled-components';
 
 export const GlobalStyles = createGlobalStyle`
 
+@font-face {
+  font-family: "Roboto";
+  src: url("assets/fonts/Mulish-Regular.ttf") format("ttf");
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Mulish";
+  src: url("assets/fonts/Mulish-Regular.ttf") format("ttf");
+  font-weight: 400;
+  font-style: normal;
+}
+
 html {
     box-sizing: border-box;
     overflow-x: hidden;
@@ -36,10 +49,9 @@ html {
 body{
   margin: 0;
   height: 100dvh;
-  font-family: 'Roboto', 'Segoe UI', 'Oxygen',
-      'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue';
+  font-family: 'Roboto', sans-serif;
   -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 p,
@@ -61,4 +73,6 @@ h6 {
   }
   ul, li {list-style-type: none;}
 `;
+
+
 export default GlobalStyles;
