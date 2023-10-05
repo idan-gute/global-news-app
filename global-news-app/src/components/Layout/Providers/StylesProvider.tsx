@@ -1,6 +1,6 @@
 import { ThemeProvider } from "styled-components";
 import { theme } from "assets/styles/theme";
-import { IChildren } from "Types/types";
+import { IChildren } from "Types";
 import GlobalStyles from "assets/styles/global-styles";
 
 

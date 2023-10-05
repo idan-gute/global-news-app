@@ -1,6 +1,7 @@
 import { DefaultTheme } from "styled-components";
 const colors = {
   white: "#FFFFFF",
+  bodyBackground: "#F8F8FF",
   primary: {
     main: "#0058B9",
     hover: "#3279c7",
@@ -14,6 +15,11 @@ const colors = {
   },
   textButton: {
     textColorHover: "#d9dbe9",
+  },
+  select: {
+    menuItem: "#dfe0eb68",
+    dropDownBoxShadow: "0px 4px 12px 0px #00000014",
+    scrollbarThumbColor: "#5A5A89",
   },
 };
 

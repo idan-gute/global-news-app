@@ -1,4 +1,5 @@
 import { createGlobalStyle } from 'styled-components';
+import { theme } from './theme';
 
 export const GlobalStyles = createGlobalStyle`
 
@@ -37,9 +38,6 @@ html {
   -ms-user-select: none;
   user-select: none;
 }
-::-webkit-scrollbar {
-  display: none;
-}
 
   &:focus {
     outline: none !important;
@@ -49,6 +47,7 @@ html {
 body{
   margin: 0;
   height: 100dvh;
+  background-color: ${theme.colors.bodyBackground};
   font-family: 'Roboto', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;

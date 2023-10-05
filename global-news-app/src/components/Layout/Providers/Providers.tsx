@@ -1,5 +1,5 @@
 
-import { IChildren } from "Types/types";
+import { IChildren } from "Types";
 import StylesProvider from "./StylesProvider"
 
 const Providers = ({ children }: IChildren) => (

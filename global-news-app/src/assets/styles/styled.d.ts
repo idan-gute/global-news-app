@@ -4,6 +4,7 @@ declare module "styled-components" {
   export interface DefaultTheme {
     colors: {
       white: string;
+      bodyBackground:string;
       primary: {
         main: string;
         hover: string;
@@ -18,6 +19,11 @@ declare module "styled-components" {
       textButton: {
         textColorHover: string;
       };
+      select: {
+        menuItem:string,
+        dropDownBoxShadow:string,
+        scrollbarThumbColor:string,
+      },
     };
     spacing: {
       0: string;
